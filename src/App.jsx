@@ -1,3 +1,4 @@
+
 import './index.css';
 import profileImg from './assets/profile.jpg';
 
@@ -5,23 +6,42 @@ const projects = [
   {
     title: 'SkyNotes',
     subtitle: 'Cloud-Based Notes Management System',
-    description: 'Developed a full-stack notes application using Java, Spring Boot, React, and MongoDB. Implemented secure REST APIs with JWT authentication, Spring Security, BCrypt password hashing, and note version history.',
-    github: '#',
-    demo: '#',
+    description:
+      'Built a full-stack notes application using Java, Spring Boot, React, and MongoDB, featuring JWT authentication, secure REST APIs, and note version history.',
+    github: 'https://github.com/Divya-Dharshini-31/SkyNotes',
+    demo: 'https://skynotes-frontend.onrender.com',
   },
   {
     title: 'CloudCast',
     subtitle: 'Location-Aware Weather Web Application',
-    description: 'Built a location-aware weather application using AWS Lambda, API Gateway, DynamoDB, and the OpenWeather API. Integrated personalized weather preferences and AI-powered recommendations, with EventBridge and SES notifications.',
-    github: '#',
-    demo: '#',
+    description:
+      'Developed an AWS-powered weather application using Lambda, API Gateway, and DynamoDB, with personalized weather preferences and AI-based recommendations.',
+    github: 'https://github.com/Janani2077/Cloudcast-Weather-App',
+    demo: 'https://cloudcast-weather-app.vercel.app',
   },
   {
     title: 'Portable Soil Testing Kit',
     subtitle: 'Smart Soil Monitoring System',
-    description: 'Developed a portable soil monitoring system with Arduino, temperature and soil-moisture sensors for real-time soil data. Built a Django application using Python to display readings and support agricultural decisions.',
-    github: '#',
-    demo: '#',
+    description:
+      'Built an Arduino-based soil monitoring system with temperature and moisture sensors, integrated with a Django application to display soil readings.',
+    github: 'https://github.com/Divya-Dharshini-31/SOIL_TESTING_KIT',
+    demo: 'https://soil-testing-kit.onrender.com',
+  },
+  {
+    title: 'AI Face Recognition Attendance System',
+    subtitle: 'Automated Attendance Management System',
+    description:
+      'Developed a React and Django application for automated attendance tracking using real-time face recognition.',
+    github:
+      'https://github.com/Divya-Dharshini-31/AI-smart-face-recognition-system',
+  },
+  {
+    title: 'AI-Driven Smart Budgeting App',
+    subtitle: 'Personal Budget Management Application',
+    description:
+      'Contributed to a Django-based budgeting application with expense-tracking features and user interface improvements.',
+    github:
+      'https://github.com/Divya-Dharshini-31/AI_driven_Budget_App',
   },
 ];
 
@@ -143,13 +163,45 @@ function App() {
           <h2>Achievements</h2>
           <div className="detail-card">
             <ul className="detail-list">
-              <li>Winner — LTM ServiceNow University Hackathon 2026</li>
-              <li><a href="https://www.credly.com/badges/836b5521-26de-4760-bbf9-1f4dfb38aaa0/public_url" target="_blank" rel="noreferrer">ServiceNow Certified System Administrator (CSA) — Mar 2026 — Servicenow CSA</a></li>
-              <li><a href="https://drive.google.com/file/d/1scdycDoAFzQ0eeDd1xVPH4Slm1SX9MWt/view" target="_blank" rel="noreferrer">ServiceNow Certified Application Developer (CAD) — Jun 2026 — Servicenow CAD</a></li>
-              <li>TOEFL ITP: 617 — Mar 2026 | GATE qualified — Feb 2026</li>
-              <li><a href="https://drive.google.com/file/d/1ZC3ksO26VKY8z4UXgrFaJML6ZR676Gob/view?usp=sharing" target="_blank" rel="noreferrer">Secured 1st Place, Neo Codeathon — Sept 2024 — R.M.D. Engineering College</a></li>
-              <li><a href="https://drive.google.com/file/d/1E2Y0nhl6Kq8G_NZpoY_4yxCqWRXc0F8w/view" target="_blank" rel="noreferrer">NPTEL certification: Cloud Computing (78% - Topper 5%)</a></li>
-              <li><a href="https://drive.google.com/file/d/1wxIS6ttvseT3Rd8kR2I-t0NKI1HFofns/view" target="_blank" rel="noreferrer">NPTEL certification: Java Programming (85% - Topper 1%)</a></li>
+              <li>
+                <a href="https://drive.google.com/file/d/12D5Lc07pF2um47twDUxbt2N3o6i-80xy/view?usp=sharing" target="_blank" rel="noreferrer">
+                  Winner — LTM ServiceNow University Hackathon 2026
+                </a>
+              </li>
+              <li>
+                <a href="https://www.credly.com/badges/836b5521-26de-4760-bbf9-1f4dfb38aaa0/public_url" target="_blank" rel="noreferrer">
+                  ServiceNow Certified System Administrator (CSA) — Mar 2026 — Servicenow CSA
+                </a>
+              </li>
+              <li>
+                <a href="https://drive.google.com/file/d/1scdycDoAFzQ0eeDd1xVPH4Slm1SX9MWt/view" target="_blank" rel="noreferrer">
+                  ServiceNow Certified Application Developer (CAD) — Jun 2026 — Servicenow CAD
+                </a>
+              </li>
+              <li>
+                <a href="https://drive.google.com/file/d/12hDuyT4ImLyR8ZY4Sk08w5v-m1ooVYoK/view?usp=sharing" target="_blank" rel="noreferrer">
+                  TOEFL ITP: 617 — Mar 2026
+                </a>
+                {' | '}
+                <a href="https://drive.google.com/file/d/1SmRJMNhrih1jfp6bxdIqpJiQRCE1owX8/view?usp=sharing" target="_blank" rel="noreferrer">
+                  GATE qualified — Feb 2026
+                </a>
+              </li>
+              <li>
+                <a href="https://drive.google.com/file/d/1ZC3ksO26VKY8z4UXgrFaJML6ZR676Gob/view?usp=sharing" target="_blank" rel="noreferrer">
+                  Secured 1st Place, Neo Codeathon — Sept 2024 — R.M.D. Engineering College
+                </a>
+              </li>
+              <li>
+                <a href="https://drive.google.com/file/d/1E2Y0nhl6Kq8G_NZpoY_4yxCqWRXc0F8w/view" target="_blank" rel="noreferrer">
+                  NPTEL certification: Cloud Computing (78% - Topper 5%)
+                </a>
+              </li>
+              <li>
+                <a href="https://drive.google.com/file/d/1wxIS6ttvseT3Rd8kR2I-t0NKI1HFofns/view" target="_blank" rel="noreferrer">
+                  NPTEL certification: Java Programming (85% - Topper 1%)
+                </a>
+              </li>
             </ul>
           </div>
         </section>
@@ -172,8 +224,18 @@ function App() {
           <h2>International Conferences</h2>
           <div className="detail-card">
             <ul className="detail-list">
-              <li>Presented “Smart Soil Analyzer: AI-Driven Soil Testing, Fertilizer &amp; Crop Advisor” at Bheema Institute of Science and Technology, Andhra Pradesh — Mar 27, 2026 — <a href="#" target="_blank" rel="noreferrer">Certificate — Add link</a></li>
-              <li>Presented “AI-Driven Smart Budgeting App” at Velammal Institute of Technology — Apr 9, 2025 — <a href="#" target="_blank" rel="noreferrer">Certificate — Add link</a></li>
+              <li>
+                Presented “Smart Soil Analyzer: AI-Driven Soil Testing, Fertilizer &amp; Crop Advisor” at Bheema Institute of Science and Technology, Andhra Pradesh — Mar 27, 2026 —{' '}
+                <a href="https://drive.google.com/file/d/1_Yo7gU-knqH-kHg4gJ9EYHdz_VkgIPUv/view?usp=sharing" target="_blank" rel="noreferrer">
+                  Certificate
+                </a>
+              </li>
+              <li>
+                Presented “AI-Driven Smart Budgeting App” at Velammal Institute of Technology — Apr 9, 2025 —{' '}
+                <a href="https://drive.google.com/file/d/1erS3rpbuH9DB1u5ClWN3J_OFMW5vCj9E/view?usp=sharing" target="_blank" rel="noreferrer">
+                  Certificate
+                </a>
+              </li>
             </ul>
           </div>
         </section>
@@ -204,13 +266,27 @@ function App() {
                 <h3>{project.title}</h3>
                 <p><strong>{project.subtitle}</strong></p>
                 <p>{project.description}</p>
-                <a href={project.github} target="_blank" rel="noreferrer" className="text-link ghost-link">
-                  GitHub — Add link
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-link ghost-link"
+                >
+                  GitHub
                 </a>
-                {' '}
-                <a href={project.demo} target="_blank" rel="noreferrer" className="text-link ghost-link">
-                  Demo — Add link
-                </a>
+                {project.demo && (
+                  <>
+                    {' '}
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-link ghost-link"
+                    >
+                      Live Demo
+                    </a>
+                  </>
+                )}
               </article>
             ))}
           </div>
